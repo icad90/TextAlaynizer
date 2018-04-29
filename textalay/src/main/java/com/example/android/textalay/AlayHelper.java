@@ -10,7 +10,7 @@ public class AlayHelper {
         result = result.replaceAll("e", "3");
         result = result.replaceAll("E", "3");
         result = result.replaceAll("I", "1");
-        result = result.replaceAll("i", "5");
+        result = result.replaceAll("i", "1");
         result = result.replaceAll("S", "5");
         result = result.replaceAll("s", "5");
         result = result.replaceAll("G", "6");
