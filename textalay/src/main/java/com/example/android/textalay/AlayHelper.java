@@ -4,6 +4,7 @@ public class AlayHelper {
 
     public static String alaynize(String input){
         String result = input;
+        result = result.replaceAll("nya", "x");
         result = result.replaceAll("A", "4");
         result = result.replaceAll("a", "4");
         result = result.replaceAll("e", "3");
@@ -18,7 +19,6 @@ public class AlayHelper {
         result = result.replaceAll("j", "7");
         result = result.replaceAll("B", "8");
         result = result.replaceAll("b", "8");
-        result = result.replaceAll("nya", "x");
         return result ;
     }
 }
