@@ -3,7 +3,7 @@ package com.example.android.textalay;
 public class AlayHelper {
 
     public static String alaynize(String input){
-        String result = "";
+        String result = input;
         result = result.replaceAll("A", "4");
         result = result.replaceAll("a", "4");
         result = result.replaceAll("e", "3");

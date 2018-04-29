@@ -18,7 +18,7 @@ public class ExampleUnitTest {
     @Test
     public void alayIsCorrect(){
         assertEquals(
-                "Al4y",
+                "4l4y",
                 AlayHelper.alaynize("alay")
         );
     }
